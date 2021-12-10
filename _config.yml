@@ -1,6 +1,9 @@
 # Set jekyll theme
 theme: minima
 
-# Set theme settings
 minima:
   skin: dark
+  social_links:
+    twitter: qhrizz
+    github: qhrizz
+    linkedin: qhrizz
