@@ -1,12 +1,1 @@
-theme: minima
-
-author:
-  name: qhrizz
-  #email: "john.smith@foobar.com"
-
-minima: 
-  skin: dark
-  social_links:
-    twitter: qhrizz
-    github: qhrizz
-    linkedin: qhrizz
+theme: minimal-mistakes-jekyll
