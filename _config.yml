@@ -1,1 +1,2 @@
-theme: jekyll-theme-cayman
+# Set jekyll theme
+theme: minima
