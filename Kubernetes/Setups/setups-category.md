@@ -1,7 +1,7 @@
 ---
-title: Kubernetes setup guides
+title: Setup guides
 has_children: true
-parent: Kubernetes home page
+parent: Kubernetes
 nav_order: 5
 ---
 
