@@ -2,7 +2,6 @@
 title: Setup Metallb
 parent: Setups
 grand_parent: Kubernetes
-nav_order: 1
 ---
 
 
