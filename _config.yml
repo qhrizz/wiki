@@ -1,3 +1,6 @@
 # Set jekyll theme
 theme: minima
- skin: dark
+
+# Set theme settings
+minima:
+  skin: dark
