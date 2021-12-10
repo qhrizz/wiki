@@ -1,7 +1,7 @@
 ---
 title: Setup Metallb
-parent: Kubernetes setup guides
-grand_parent: Kubernetes home page
+parent: Setup guides
+grand_parent: Kubernetes
 nav_order: 1
 ---
 
