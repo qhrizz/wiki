@@ -85,3 +85,5 @@ And your terminal should now look like
 
 ![iterm2-oh-my-posh-font-mac2.png](iterm2-oh-my-posh-font-mac2.png)
 
+# Sync profile
+[Sync profile](/Windows/Setups/Powershell%20Sync%20profile/powershell-sync-profile){:target="_blank"}

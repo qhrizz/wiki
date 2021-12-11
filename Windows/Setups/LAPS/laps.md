@@ -6,7 +6,7 @@ tags: windows, laps
 ---
 
 # LAPS
-1. On a domain computer, download LAPS msi file https://www.microsoft.com/en-us/download/details.aspx?id=46899. LAPS.x64.msi should be OK
+1. On a domain computer, download LAPS msi file [LAPS Download](https://www.microsoft.com/en-us/download/details.aspx?id=46899){:target="_blank"} LAPS.x64.msi should be OK
 2. Run the msi and enable the features
 - Powershell Module
 - GPO Editor Template
@@ -22,7 +22,7 @@ We can also create a readonly group (for servicedesk) that can read the properti
 `Set-AdmPwdReadPasswordPermission -OrgUnit "OU=Computers,OU=Qnet,DC=potato,DC=domain,DC=se" -AllowedPrincipals "laps_reader"`
 And a for the admins
 `Set-AdmPwdResetPasswordPermission -OrgUnit "OU=Computers,OU=Qnet,DC=potato,DC=domain,DC=se" -AllowedPrincipals "laps_admins"`
-8.  For the client to be able to update the password into AD they need the DLL file. There are two popular ways, one is copying the AdmPwd.dll to all computers %SystemRoot%\SysWOW64\AdmPwd.dll but I like Powershell app deploy toolkit. I’ll link it here [psapp-deploy_lapsclient.zip](psapp-deploy_lapsclient.zip)
+8.  For the client to be able to update the password into AD they need the DLL file. There are two popular ways, one is copying the AdmPwd.dll to all computers %SystemRoot%\SysWOW64\AdmPwd.dll but I like Powershell app deploy toolkit. I’ll link it here [psapp-deploy_lapsclient.zip](psapp-deploy_lapsclient.zip){:target="_blank"}
 9. Edit the LAPS policy to deploy it with a GP -> Powershellscript (I stored the unpacked zipfile in \\domain\sysvol\domain\Deploy)
 10. Now restart the servers/clients for the installation to take place. Checking installed programs should now show “Local Administrator Password Solution”
 11. On the computer with the management tools you can now run `Get-AdmPwdPassword -ComputerName "MyComputer"`
