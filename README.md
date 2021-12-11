@@ -1,2 +1,2 @@
 # wiki
-Github pages repository
+Github pages repository for my wiki/documentation
