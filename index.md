@@ -9,6 +9,6 @@ Feel free to copy what you need =)
 
 
 # Socials
-- [Twitter](https://twitter.com/qhrizz)
-- [LinkedIn](https://linkedin.com/in/qhrizz)
-- [Github](https://github.com/qhrizz)
+- [Twitter](https://twitter.com/qhrizz){:target="_blank"}
+- [LinkedIn](https://linkedin.com/in/qhrizz){:target="_blank"}
+- [Github](https://github.com/qhrizz){:target="_blank"}
