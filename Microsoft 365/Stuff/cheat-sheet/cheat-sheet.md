@@ -1,8 +1,8 @@
 ---
 title: Cheat sheet
-parent: "General stuff"
-grand_parent: "Microsoft 365"
-tags: microsoft 365
+parent: Stuff
+grand_parent: M365
+tags: m365
 ---
 
 # Cheat sheet

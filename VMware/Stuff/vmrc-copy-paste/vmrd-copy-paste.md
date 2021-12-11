@@ -1,6 +1,6 @@
 ---
 title: Enable copy and paste for VMRC
-parent: "General Stuff"
+parent: Stuff
 grand_parent: VMware
 tags: vmware, vmrc
 ---

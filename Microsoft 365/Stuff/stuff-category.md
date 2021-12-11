@@ -1,7 +1,7 @@
 ---
-title: General stuff
+title: Stuff
 has_children: true
-parent: "Microsoft 365"
+parent: M365
 ---
 
 # This page/category contains everything relating to general stuff in Microsoft 365

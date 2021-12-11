@@ -1,6 +1,6 @@
 ---
 title: Powershell datatypes
-parent: "General Stuff"
+parent: Stuff
 grand_parent: Windows
 tags: windows, powershell
 ---

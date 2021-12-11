@@ -1,5 +1,5 @@
 ---
-title: "General stuff"
+title: Stuff
 has_children: true
 parent: "Windows"
 ---

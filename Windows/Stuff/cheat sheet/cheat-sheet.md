@@ -1,6 +1,6 @@
 ---
 title: Powershell cheat sheet and nice stuff to have
-parent: "General Stuff"
+parent: Stuff
 grand_parent: Windows
 tags: windows, powershell
 ---

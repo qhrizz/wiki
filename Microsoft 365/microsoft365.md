@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365"
+title: M365
 has_children: true
 ---
 
