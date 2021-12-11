@@ -21,3 +21,7 @@ search.preview_words_after: 10
 # Enable or disable the search button that appears in the bottom right corner of every page
 # Supports true or false (default)
 search.button: true
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
