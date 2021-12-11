@@ -1,6 +1,5 @@
 ---
 title: Using Responder
-has_children: true
 parent: Tools
 grand_parent: Kali
 tags: responder, kali linux

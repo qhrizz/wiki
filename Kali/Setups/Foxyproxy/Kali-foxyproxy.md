@@ -1,8 +1,7 @@
 ---
 title: Setup FoxyProxy
-has_children: true
 parent: Setups
-grand_parent: Kali Linux
+grand_parent: Kali
 tags: foxyproxy, kali linux
 ---
 # Foxyproxy

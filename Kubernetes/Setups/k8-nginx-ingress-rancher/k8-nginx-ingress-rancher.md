@@ -1,11 +1,8 @@
 ---
 title: Nginx Ingress with Rancher
-description: 
-published: 1
-date: 2021-07-28T17:53:33.630Z
+parent: Setups
+grand_parent: Kubernetes
 tags: helm, ingress, kubernetes, nginx
-editor: markdown
-dateCreated: 2021-07-07T19:33:29.593Z
 ---
 
 # Nginx Ingress with Rancher

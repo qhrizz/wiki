@@ -1,5 +1,5 @@
 ---
-title: Using tools
+title: Tools
 has_children: true
 parent: Kali linux
 ---

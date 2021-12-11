@@ -1,11 +1,9 @@
 ---
 title: Ubuntu 18.04 simple node template
-description: 
-published: 1
-date: 2021-07-07T21:51:07.601Z
+parent: Setups
+grand_parent: Kubernetes
 tags: kubernetes, node, template, vsphere
-editor: markdown
-dateCreated: 2021-07-07T19:31:24.672Z
+
 ---
 
 # Node Template

@@ -1,6 +1,5 @@
 ---
 title: Using theharvester
-has_children: true
 parent: Tools
 grand_parent: Kali
 tags: theharvester, kali linux

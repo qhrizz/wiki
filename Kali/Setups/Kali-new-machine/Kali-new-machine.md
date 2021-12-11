@@ -2,7 +2,7 @@
 title: New Kali linux machine setup
 has_children: true
 parent: Setups
-grand_parent: Kali Linux
+grand_parent: Kali
 ---
 
 # Fresh install
