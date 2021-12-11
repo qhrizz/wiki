@@ -1,8 +1,8 @@
 ---
 title: Using Amass
 has_children: true
-parent: Using tools
-grand_parent: Kali Linux
+parent: Tools
+grand_parent: Kali
 tags: Amass, kali linux
 ---
 

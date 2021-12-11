@@ -1,5 +1,5 @@
 ---
-title: Kali linux
+title: Kali
 has_children: true
 ---
 
