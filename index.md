@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+footer: last_modified_date
 ---
 
 # Welcome
