@@ -17,3 +17,9 @@ To temporarily fix until next reboot, try
 ```
 sysctl -w net/netfilter/nf_conntrack_max=131072
 ```
+
+# In Ubuntu (atleast)
+1. Edit /etc/modules 
+2. At the end of the file, add nf_conntrack and save
+3. Edit /etc/sysctl.conf and add "net.netfilter.nf_conntrack_max=131072" and save
+4. Reboot 
