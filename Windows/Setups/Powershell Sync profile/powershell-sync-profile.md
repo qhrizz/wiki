@@ -21,9 +21,10 @@ $PS5ISEpath = "C:\Users\$ENV:USERNAME\Documents\WindowsPowerShell\Microsoft.Powe
 New-Item -Path $PS7path -Force 
 New-Item -Path $PS5path -Force
 New-Item -Path $PS5ISEpath -Force
-
+```
 
 # Add
+```
 $content = @"
 # Load profile from Github
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/Profile.ps1'))

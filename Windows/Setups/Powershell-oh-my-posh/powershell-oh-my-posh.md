@@ -31,9 +31,10 @@ $PS5ISEpath = "C:\Users\$ENV:USERNAME\Documents\WindowsPowerShell\Microsoft.Powe
 New-Item -Path $PS7path -Force
 New-Item -Path $PS5path -Force
 New-Item -Path $PS5ISEpath -Force
-
+```
 
 # Add
+```
 $content = @"
 Import-Module posh-git
 Import-Module oh-my-posh
