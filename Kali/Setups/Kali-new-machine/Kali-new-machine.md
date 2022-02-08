@@ -35,3 +35,7 @@ git clone https://github.com/Dewalt-arch/pimpmykali
 cd pimpmykali 
 sudo ./pimpmykali.sh 
 (choose N for new VM) 
+
+
+## Setup passwordless sudo 
+sudo apt install -y kali-grant-root && sudo dpkg-reconfigure kali-grant-root 
