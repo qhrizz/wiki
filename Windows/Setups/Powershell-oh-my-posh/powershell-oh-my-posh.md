@@ -9,7 +9,8 @@ tags: windows, powershell
 My way of setting it up in Windows Terminal
 
 1. Install modules
-```
+
+```Powershell
 Install-Module posh-git
 Install-Module oh-my-posh 
 Install-Module -Name PSReadLine -Force -SkipPublisherCheck
@@ -21,7 +22,8 @@ Install-Module -Name PSReadLine -Force -SkipPublisherCheck
 2.3 Select all and right click -> Install for All users
 
 3. Create and set your profiles (This will overwrite any existing stuff you have!)
-```
+
+```Powershell
 # Create profile for both PS Core, PS and ISE
 $PS7path = "C:\Users\$ENV:USERNAME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
 $PS5path = "C:\Users\$ENV:USERNAME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
@@ -34,7 +36,8 @@ New-Item -Path $PS5ISEpath -Force
 ```
 
 # Add
-```
+
+```Powershell
 $content = @"
 Import-Module posh-git
 Import-Module oh-my-posh
@@ -46,9 +49,11 @@ Set-Content -Path $PS5path -Value $content
 Set-Content -Path $PS5ISEpath -Value $content
 ```
 4. Open Windows Terminal settings.json and add 
-```
+
+```json
 "fontFace": "MesloLGM NF"
 ```
+
 To your powershell profiles
 
 Example settings.json can be found here https://github.com/qhrizz/Public/blob/master/Windows/Powershell/windows-terminal-settings.json
@@ -59,20 +64,22 @@ Example settings.json can be found here https://github.com/qhrizz/Public/blob/ma
 
 # macOS
 1. Install Fonts with Homebrew
-```
+
+```s
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 ```
 
 2. Edit
 
-```
+```s
 mkdir /Users/USERNAME/.config/powershell (if it doesnt exist)
 touch /Users/USERNAME/.config/powershell/Microsoft.PowerShell_profile.ps1
 ```
 
 4. Add your code. Mine is simply
-```
+
+```s
 # Load profile from Github
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/Profile.ps1'))
 ```

@@ -11,7 +11,7 @@ This will describe how I am using Github to sync and update my powershell profil
 
 This script will create/overwrite the existing three profiles for PS7, PS5 and ISE
 
-```
+```Powershell
 # Create profile for both PS Core, PS and ISE
 $PS7path = "C:\Users\$ENV:USERNAME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
 $PS5path = "C:\Users\$ENV:USERNAME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
@@ -24,7 +24,8 @@ New-Item -Path $PS5ISEpath -Force
 ```
 
 # Add
-```
+
+```Powershell
 $content = @"
 # Load profile from Github
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/Profile.ps1'))
