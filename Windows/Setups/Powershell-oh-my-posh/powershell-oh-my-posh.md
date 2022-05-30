@@ -72,13 +72,14 @@ brew install --cask font-hack-nerd-font
 
 2. Edit
 
-```
+```s
 mkdir /Users/USERNAME/.config/powershell (if it doesnt exist)
 touch /Users/USERNAME/.config/powershell/Microsoft.PowerShell_profile.ps1
 ```
 
 4. Add your code. Mine is simply
-```
+
+```s
 # Load profile from Github
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/Profile.ps1'))
 ```

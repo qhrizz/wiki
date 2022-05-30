@@ -17,7 +17,7 @@ tdnf install kbd
 Set Swedish keyboard map
 
 ```
-localectl set-keymap se-lat6
+localectl set-keymap sv-latin1
 ```
 
 
