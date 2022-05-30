@@ -9,6 +9,7 @@ tags: windows, powershell
 My way of setting it up in Windows Terminal
 
 1. Install modules
+
 ```
 Install-Module posh-git
 Install-Module oh-my-posh 
@@ -21,6 +22,7 @@ Install-Module -Name PSReadLine -Force -SkipPublisherCheck
 2.3 Select all and right click -> Install for All users
 
 3. Create and set your profiles (This will overwrite any existing stuff you have!)
+
 ```
 # Create profile for both PS Core, PS and ISE
 $PS7path = "C:\Users\$ENV:USERNAME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
@@ -34,6 +36,7 @@ New-Item -Path $PS5ISEpath -Force
 ```
 
 # Add
+
 ```
 $content = @"
 Import-Module posh-git
@@ -46,9 +49,11 @@ Set-Content -Path $PS5path -Value $content
 Set-Content -Path $PS5ISEpath -Value $content
 ```
 4. Open Windows Terminal settings.json and add 
+
 ```
 "fontFace": "MesloLGM NF"
 ```
+
 To your powershell profiles
 
 Example settings.json can be found here https://github.com/qhrizz/Public/blob/master/Windows/Powershell/windows-terminal-settings.json
@@ -59,6 +64,7 @@ Example settings.json can be found here https://github.com/qhrizz/Public/blob/ma
 
 # macOS
 1. Install Fonts with Homebrew
+
 ```
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
