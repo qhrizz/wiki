@@ -77,6 +77,7 @@ We can check which ClusterIssuers we have with kubectl get clusterissuer
 ![cert-manager-cloudflare1.png](cert-manager-cloudflare1.png)
 
 5. Now we can try to request a certificate for the domain qhrizz.se using the CluserIssuer letsencrypt-staging
+
 ```
 apiVersion: cert-manager.io/v1
 kind: Certificate
