@@ -8,13 +8,7 @@ tags: windows, powershell
 # oh-my-posh
 My way of setting it up in Windows Terminal
 
-1. Install modules
-
-```
-Install-Module posh-git
-Install-Module oh-my-posh 
-Install-Module -Name PSReadLine -Force -SkipPublisherCheck
-``` 
+1. Follow the new install instructions https://ohmyposh.dev/docs/installation/windows
 
 2. Download Nerd Fonts since most themes requires it
 2.1 https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip 
